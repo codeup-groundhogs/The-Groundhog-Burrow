@@ -50,7 +50,9 @@ function not(input) {
 
 
 function isEven(input) {
-    return input + 1;
+    if (parseFloat(input) % 2 === 0) {
+        return true;
+    } else return false;
 }
 
 function or(a, b) {
@@ -71,6 +73,10 @@ function and(a, b) {
         isEqual("java", "javascript")         // false
 */
 
+function isEqual(a, b) {
+    return a == b;
+
+}
 
 function concat(a, b) {
     return a.toString() + b.toString();
