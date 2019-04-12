@@ -1,6 +1,7 @@
 // ================================= LOOPS AND ARRAY BONUSES
 // 1. Create a function that returns a random day of the week
 
+
 function randomWeekDay() {
 
     var day = [
@@ -11,20 +12,18 @@ function randomWeekDay() {
         "Thursday",
         "Friday",
         "Saturday",
-    ]
+    ];
 
-    randomWeekDay(Math.floor(Math.random() * 1) + 7);
-
-
+    return day[(Math.floor(Math.random() * 7))];
 }
 
-
-console.log(Math.floor(Math.random() * 7) + 1);
-
+console.log(randomWeekDay());
 
 // 2. Create a function that takes a single letter and returns what number the letter is in the alphabet. Ignore case.
 // someFunction("a") // returns 1
 // someFunction("z") // returns 26
+
+
 
 
 // 3. Create a function that returns the longest string in a given array of string elements.
