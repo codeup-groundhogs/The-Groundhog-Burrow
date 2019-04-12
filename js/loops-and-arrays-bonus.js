@@ -23,7 +23,22 @@ console.log(randomWeekDay());
 // someFunction("a") // returns 1
 // someFunction("z") // returns 26
 
+function letterNumbers(letter) {
 
+    var letter = [
+        '',
+        'a',
+        'b',
+        'c',
+        'd',
+        'e',
+
+        ];
+
+    return number;
+}
+
+console.log(number);
 
 
 // 3. Create a function that returns the longest string in a given array of string elements.
