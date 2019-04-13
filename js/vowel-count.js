@@ -4,7 +4,7 @@
 //
 //     The input string will only consist of lower case letters and/or spaces.
 
-function vowelCount(str) {
+function getCount(str) {
     var vowelCount = 0;
     var string = str;
 
