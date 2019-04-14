@@ -44,6 +44,29 @@ function multipleSum(limitingNumber) {
 // By considering the terms in the Fibonacci sequence whose values do not exceed
 // four million, find the sum of the even-valued terms.
 
+function fibonacciEvenSum(limitation) {
+
+    var a = 0;
+    var b = 1;
+    var c = 0;
+
+    var fib = 0;
+
+    while (c < limitation) {
+
+        if (c % 2 === 0) {
+            console.log(c);
+            console.log("The sum of the even numbers is: " + (fib += c));
+        }
+
+        c = a + b;
+        a = b;
+        b = c;
+    }
+}
+
+//Fibonacci Sequence Generator
+
 function fibonacci(limitation) {
 
     var a = 0;
